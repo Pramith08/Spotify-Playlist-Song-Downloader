@@ -26,3 +26,11 @@ Before running the script, make sure you have the following:
    git clone https://github.com/yourusername/spotify-to-youtube-downloader.git
    cd spotify-to-youtube-downloader
 2. Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Create a `.env` file in the project directory with your Spotify and YouTube API credentials:
+   ```bash
+   touch .env
+   ```bash
+   Inside .env, add:
+
