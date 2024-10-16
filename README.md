@@ -25,12 +25,31 @@ Before running the script, make sure you have the following:
    ```bash
    git clone https://github.com/yourusername/spotify-to-youtube-downloader.git
    cd spotify-to-youtube-downloader
+
 2. Install the required Python dependencies:
    ```bash
    pip install -r requirements.txt
-3. Create a `.env` file in the project directory with your Spotify and YouTube API credentials:
+
+3. Create a `.env` file in the project directory to fill API credentials:
    ```bash
    touch .env
+
+4. Inside .env, add your API credentials:
    ```bash
-   Inside .env, add:
+   SPOTIFY_CLIENT_ID=your_spotify_client_id
+   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+   YOUTUBE_API=your_youtube_api_key
+   
+5. Run the Python script:
+   ```bash
+   python app.py
+
+## Usage
+
+1. **Enter your Spotify Playlist URL:** Copy the URL of any public Spotify playlist and paste it into the input field in the GUI.
+
+2. **Fetch Songs:** Click the "Get Songs" button. The app will fetch the song names from Spotify and search for them on YouTube.
+
+3. **Download Songs:** For each song in your playlist, the app will provide a download button next to the song name. Clicking the button will download the song from YouTube in high-quality audio.
+   
 
