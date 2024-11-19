@@ -23,7 +23,7 @@ Before running the script, make sure you have the following:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/spotify-to-youtube-downloader.git
+   git clone https://github.com/Pramith08/Spotify-Playlist-Song-Downloader.git
    cd spotify-to-youtube-downloader
 
 2. Install the required Python dependencies:
