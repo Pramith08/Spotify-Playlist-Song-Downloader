@@ -16,8 +16,7 @@ Before running the script, make sure you have the following:
 
 1. **Python 3.x** installed on your machine.
 2. A **Spotify Developer Account** to obtain the Spotify API credentials (`client_id` and `client_secret`).
-3. A **YouTube Data API key** to perform YouTube searches.
-4. A `.env` file containing your Spotify API credentials and YouTube API key.
+3. A `.env` file containing your Spotify API credentials.
 
 ## Installation
 
