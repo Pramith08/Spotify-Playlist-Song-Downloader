@@ -36,9 +36,8 @@ Before running the script, make sure you have the following:
 
 4. Inside .env, add your API credentials:
    ```bash
-   SPOTIFY_CLIENT_ID=your_spotify_client_id
-   SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-   YOUTUBE_API=your_youtube_api_key
+   SPOTIFY_CLIENT_ID='your_spotify_client_id'
+   SPOTIFY_CLIENT_SECRET='your_spotify_client_secret'
    
 5. Run the Python script:
    ```bash
