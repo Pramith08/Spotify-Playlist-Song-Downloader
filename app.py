@@ -12,7 +12,6 @@ load_dotenv()
 
 client_id = os.getenv("SPOTIFY_CLIENT_ID")
 client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
-youtube_api = os.getenv("YOUTUBE_API")
 
 # Spotify functions
 def get_token():
